@@ -1,0 +1,55 @@
+.netflix{
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+    justify-content: center;
+    height: 100vh;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #161616;
+}
+.main{
+    display: block;
+    width: 95%;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top right,rgba(0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/cover.jpg");
+    background-size: cover;
+    padding-top: 120px;
+    color: white;
+    padding-left: 40px;
+    gap: 10px;
+}
+.hero img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.h-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+
+}
+.h-button button{
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+}
+.b1{
+    background-color: red;
+    color: white;
+}
+.b2{
+    background-color: white;
+    color: #000000;
+    
+}

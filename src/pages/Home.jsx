@@ -1,11 +1,12 @@
-import searchIcon from "../assets/magnifying-glass.svg"
-import houseIcon from "../assets/house.svg"
-import filmIcon from "../assets/film-slate.svg"
-import monitorIcon from "../assets/monitor.svg"
-import trendIcon from "../assets/trend-up.svg"
-import plusIcon from "../assets/plus.svg"
-import janaganamana from "../assets/janaganamana.png"
-import './home.css';
+import searchIcon from "../assets/magnifying-glass.svg";
+import houseIcon from "../assets/house.svg";
+import filmIcon from "../assets/film-slate.svg";
+import monitorIcon from "../assets/monitor.svg";
+import trendIcon from "../assets/trend-up.svg";
+import plusIcon from "../assets/plus.svg";
+import janaganamana from "../assets/janaganamana.png";
+import Moviecard from "../components/Moviecard";
+import "./home.css";
 
 function Home() {
   return (
@@ -28,6 +29,10 @@ function Home() {
           <button className="b2">Watch Trailer</button>
         </div>
       </div>
+      <Moviecard Mtitle="New This Week"/>
+      <Moviecard Mtitle="Trending Now"/>
+      <Moviecard Mtitle="Recently Watched"/>
+
     </div>
   </div>
   )

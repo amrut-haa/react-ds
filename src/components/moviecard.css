@@ -1,0 +1,20 @@
+.newtitle{
+    color: white;
+    font-size: 25px;
+    /* display: flex; */
+
+}
+.weekly-movies{
+    display: flex;
+    height:400px ;
+    gap: 12px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.weekly-movies img{
+    height: 300px;
+}
+.weekly-movies img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.36, 1.56, 0.64, 1) ;
+}

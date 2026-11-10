@@ -7,14 +7,7 @@ import meeshaImage from "../assets/meesha.png";
 import padakalamImage from "../assets/padakalam.png";
 import premaluImage from "../assets/premalu.png";
 import sarvammayaImage from "../assets/sarvammaya.png";
-import sitaramamImage from "../assets/sitaramam.png";
-import spdrmanImage from "../assets/spdrman.png";
-import theriImage from "../assets/theri.png";
-import vishwaImage from "../assets/vishwa.png";
-import chocolateImage from "../assets/chocolate.png";
-import dudeImage from "../assets/dude.png";
-import bethlehemImage from "../assets/bethlehem.png";
-import baskerImage from "../assets/basker.png";
+
 import './moviecard.css';
 
 function Moviecard({Mtitle}) {

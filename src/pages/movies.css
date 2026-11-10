@@ -1,0 +1,51 @@
+.cover{
+
+background-size: cover;
+background-position: center;
+min-height: 100vh;
+font-family:  'raleway',sans-serif;
+}
+.right-side{
+   background-size: cover;
+   background:linear-gradient(to top,rgba(0,0,0,1.0),rgba(0,0,0,0.1)) , url("../assets/background.jpg");
+   
+    
+}
+.right-side img{
+    margin-top: 220px;
+    margin-left: 20px;
+  
+    
+}
+.button  {
+       margin-top: 20px;
+       width: 5px;
+       margin-left: 30px;
+       display: flex;
+       flex-direction: row;
+       
+}
+.play-button{
+    width: 90px;
+    padding-bottom: 10px 20px;
+   
+
+}
+.play-button img{
+    width: 30px;
+    
+}
+.icons{
+   display: flex;
+    
+} 
+
+
+.main{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+    
+
+}
